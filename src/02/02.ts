@@ -13,7 +13,7 @@ type TechType = {
   title: string
 }
 
-type StudentType = {
+export type StudentType = {
   id: number
   name: string
   age: number
@@ -22,7 +22,7 @@ type StudentType = {
   technologies: TechType[]
 }
 
-const student: StudentType = {
+export const student: StudentType = {
   id: 1,
   name: 'Ivan',
   age: 33,
